@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sea Green Inn</title>
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles/style.css">
+  <script type="text/javascript" src="javascript/navbar.js"></script>
+</head>
+
+<body>
+  <!-- ============================Main==================== -->
+  <main>
+
+
+    <!-- ===============Nav Bar=================== -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand me-lg-auto" href="index.html"><img src="images/Logo.png" height="50px" width="130px"
+            alt="Sea Green Inn"></a>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <a class="offcanvas-title" href="index.html" id="offcanvasNavbarLabel"><img src="images/Logo.png"
+                height="50px" width="130px" alt="Sea Green Inn"></a>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2 active" href="rooms.html">Rooms</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="menu.html">Food Menus</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <a href="booking.html" class="booking-button">Book Now</a>
+        <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- =======================Nav Bar End=================== -->
+
+
+
+
+
+    <!-- =======================Cover Photo Section================== -->
+    <section class="cover-img-home cover-img-rooms">
+      <div class="container d-flex align-items-center justify-content-center fs-1 text-white flex-column">
+        <p class="lh-1">Sea Green Inn Cox's Bazar</p>
+        <h1 style="size: 100px;">Rooms & Suites</h1>
+      </div>
+    </section>
+    <!-- =======================Cover Photo Section End=================== -->
+
+
+  </main>
+  <!-- ==========================Main End========================== -->
+
+  <section>
+    <div class="row m-md-1 bg-body d-flex justify-content-center">
+      <!-- ======== Carousel Start ======== -->
+      <div id="carouselExample" class="carousel slide container-fluid bg-body-secondary col-md-6 py-3">
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="max-height: 400px; min-width: 400px ;">
+            <img src="images/room10.webp" class="d-block w-100" alt="Classic Room"
+              style="width:100%; height:100%; border-radius: 15px 50px;">
+          </div>
+          <div class="carousel-item" style="max-height: 400px; min-width: 400px;">
+            <img src="images/room9.avif" class="d-block w-100" alt="..."
+              style="width:100%; height:100%; border-radius: 15px 50px;">
+          </div>
+          <div class="carousel-item" style="max-height: 400px; min-width: 400px;">
+            <img src="images/room8.avif" class="d-block w-100" alt="Other"
+              style="width:100%; height:100%; border-radius: 15px 50px;">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- ======== Carousel Finish ======== -->
+      <div class="container bg-body-secondary col-md-6 py-2">
+        <div class="container">
+          <span class="container">
+            <h1 class="display-5 fw-bold shadow-h1">Classic Rooms</h1>
+          </span>
+          <span class="m-1 container">
+            <h4>Have a great night sleep in our spacious room with king bed. Guest bathroom, full of modern amenities
+              to experience luxury stay.</h4>
+          </span>
+          <div class="container align-baseline align-content-center"><a href="#bookNow"><button
+                class="mt-5 btn btn-outline-success btn-md" class="margin:auto" type="button">More Details</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section>
+    <div class="row m-md-1 bg-body d-flex justify-content-center">
+      <div class="container bg-body-secondary col-md-6 py-2">
+        <div class="container">
+          <span class="container">
+            <h1 class="display-5 fw-bold shadow-h1">Presidential Suite</h1>
+          </span>
+          <span class="m-1 container">
+            <h4>Cozy Junior Suite living room. Perfect set-up for your meeting.. Guest bathroom, full of modern
+              amenities to experience luxury stay.</h4>
+          </span>
+          <div class="container align-baseline align-content-center"><a href="#bookNow"><button
+                class="mt-5 btn btn-outline-success btn-md" class="margin:auto" type="button">More Details</button></a>
+          </div>
+        </div>
+      </div>
+      <!-- ======== Carousel Start ======== -->
+      <div id="carouselExample2" class="carousel slide container-fluid bg-body-secondary col-md-6 py-3">
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="max-height: 400px; min-width: 400px ;">
+            <img src="images/room6.webp" class="d-block w-100" alt="Classic Room"
+              style="width:100%; height:100%; border-radius: 50px 15px;">
+          </div>
+          <div class="carousel-item" style="max-height: 400px; min-width: 400px;">
+            <img src="images/room5.jpeg" class="d-block w-100" alt="..."
+              style="width:100%; height:100%; border-radius: 50px 15px;">
+          </div>
+          <div class="carousel-item" style="max-height: 400px; min-width: 400px;">
+            <img src="images/room8.avif" class="d-block w-100" alt="Other"
+              style="width:100%; height:100%; border-radius: 50px 15px;">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- ======== Carousel Finish ======== -->
+    </div>
+  </section>
+
+
+  <section>
+    <div class="row m-md-1 bg-body d-flex justify-content-center">
+      <!-- ======== Carousel Start ======== -->
+      <div id="carouselExample" class="carousel slide container-fluid bg-body-secondary col-md-6 py-3">
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="max-height: 400px; min-width: 400px ;">
+            <img src="images/room10.webp" class="d-block w-100" alt="Classic Room"
+              style="width:100%; height:100%; border-radius: 15px 50px;">
+          </div>
+          <div class="carousel-item" style="max-height: 400px; min-width: 400px;">
+            <img src="images/room9.avif" class="d-block w-100" alt="..."
+              style="width:100%; height:100%; border-radius: 15px 50px;">
+          </div>
+          <div class="carousel-item" style="max-height: 400px; min-width: 400px;">
+            <img src="images/room8.avif" class="d-block w-100" alt="Other"
+              style="width:100%; height:100%; border-radius: 15px 50px;">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- ======== Carousel Finish ======== -->
+      <div class="container bg-body-secondary col-md-6 py-2">
+        <div class="container">
+          <span class="container">
+            <h1 class="display-5 fw-bold shadow-h1">Junior Suite</h1>
+          </span>
+          <span class="m-1 container">
+            <h4>Enjoy your favorite TV show while resting in our Junior Suite bed. Cozy Junior Suite living room.
+              Perfect set-up for your meeting.</h4>
+          </span>
+          <div class="container align-baseline align-content-center"><a href="#bookNow"><button
+                class="mt-5 btn btn-outline-success btn-md" type="button">More Details</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <!-- ==========================Footer========================== -->
+  <footer class="bg-dark py-5 mt-0 pb-1">
+    <div class="container">
+      <div class="row">
+        <!-- Column 1 Start -->
+        <div class="col-md-3 text-center">
+          <h2 class="footer-about-h2">Sea Green Inn Limited</h2>
+          <p class="d-block footer-about-p"><img src="images/Logo.png" width="50%" height="70px" alt="Sea Green Inn">
+          </p>
+        </div>
+        <!-- Column 1 End -->
+        <!-- Column 2 Start -->
+        <div class="col-md-3">
+          <h2 class="footer-about-h2">About Us</h2>
+          <p class="d-block footer-about-p">Sea Green Inn Ltd is the First Five Star Eco-friendly Resort in Bangladesh,
+            Started its commercial operation from 05 May 2024.</p>
+
+          <!-- =====================Social Media Icon Start============= -->
+          <div class="container d-flex gap-3">
+            <a href="http://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+            <a href="http://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+            <a href="http://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+            <a href="http://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube fa-2xl"></i></i></a>
+          </div>
+          <!-- ======================Social Media Icon End================= -->
+        </div>
+        <!-- Collumn 2 End -->
+
+        <!-- Collumn 3 Start -->
+        <div class="col-md-3 footer-col2">
+          <ul class="footer-list-col2">
+            <li class="h3">Catagories</li>
+            <li><a href="booking.html" class="footer-catagories-list">Book Now</a></li>
+            <li><a href="rooms.html" class="footer-catagories-list">Rooms</a></li>
+            <li><a href="menu.html" class="footer-catagories-list">Food Menu</a></li>
+            <li><a href="#" class="footer-catagories-list">Gallery</a></li>
+            <li><a href="about.html" class="footer-catagories-list">More Information</a></li>
+          </ul>
+        </div>
+        <!-- Collumn 3 End -->
+
+        <!-- Collumn 4 Start -->
+        <div class="col-md-3">
+          <h2 class="footer-about-h2">Contact Info</h2>
+          <p style="color: #a1a1a1; font-family: robot;"><i class="fa-solid fa-location-dot"
+              style="color: #a1a1a1;"></i> &nbsp;&nbsp;&nbsp;&nbsp;Inani, Cox's Bazar, Chattagram,
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bangladesh.</p>
+          <p style="color: #a1a1a1; font-family: robot;"><i class="fa-solid fa-envelope" style="color: #a1a1a1;"></i>
+            &nbsp;&nbsp;&nbsp;&nbsp;info@seagreeninnltd.com</p>
+          <p style="color: #a1a1a1; font-family: robot;"> <i class="fa-solid fa-phone" style="color: #a1a1a1;"></i>
+            &nbsp;&nbsp;&nbsp;&nbsp;+88 0186421-8632<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +88
+            01568014812<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fax- 5689653</p>
+        </div>
+      </div>
+      <!-- Collumn 4 End -->
+
+      <div class="container pb-0 mb-0" style="color: rgb(185, 185, 185); text-align: center;">
+        <p>© 2024 Sea Green Inn Ltd. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+  <!-- ==========================Footer End========================== -->
+</body>
+
+</html>

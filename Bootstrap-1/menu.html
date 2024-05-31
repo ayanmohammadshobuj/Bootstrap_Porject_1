@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sea Green Inn</title>
+  <link rel="stylesheet" href="styles/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+    integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles/style.css">
+  <script type="text/javascript" src="javascript/navbar.js"></script>
+</head>
+
+<body>
+  <!-- ==================Main================== -->
+  <main>
+
+
+    <!-- ===============Nav Bar=================== -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand me-lg-auto" href="index.html"><img src="images/Logo.png" height="50px" width="130px"
+            alt="Sea Green Inn"></a>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <a class="offcanvas-title" href="index.html" id="offcanvasNavbarLabel"><img src="images/Logo.png"
+                height="50px" width="130px" alt="Sea Green Inn"></a>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="rooms.html">Rooms</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2 active" href="menu.html">Food Menus</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <a href="booking.html" class="booking-button">Book Now</a>
+        <button class="navbar-toggler pe-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Food Menus Carousel -->
+    <section
+      class="container-fluid my-5 text-center text-lg-start text-md-center text-sm-center text-xs-center text-xxs-center mb-5 mt-5">
+      <div id="carouselExampleAutoplaying" class="carousel carousel-dark slide mb-5 mt-5" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row text-start mpading">
+              <div class="col-lg-5"><img src="images/foods1.png" class="w-100" alt=""></div>
+              <div class="col-lg-5 marginpadding">
+                <h1 class="shadow-h1 mt-5 mb-5 text-center text-lg-start text-md-center text-sm-center offer-price">
+                  <del
+                    style="color: #dfc390; font-family: 'Roboto', sans-serif; letter-spacing: 3px; line-height: 60px; font-style: italic; font-size: 30px; font-weight: 900;">$100</del>&nbsp;&nbsp;$70
+                </h1>
+                <h1 class="shadow-h1 mt-5 mb-5 text-center text-lg-start text-md-center text-sm-center food-title">
+                  Burger</h1>
+                <span class="badge bg-warning text-dark">Food</span>
+                <span>Best Ratings</span>&nbsp;&nbsp;
+                <span><i class="fa-solid fa-star fa-lg" style="color: #e9c43f;"></i> &nbsp;&nbsp;
+                  <i class="fa-solid fa-star fa-lg" style="color: #e9c43f;"></i>&nbsp;&nbsp;
+                  <i class="fa-solid fa-star fa-lg" style="color: #e9c43f;"></i> &nbsp;&nbsp;
+                  <i class="fa-solid fa-star fa-lg" style="color: #e9c43f;"></i> &nbsp;&nbsp;
+                  <i class="fa-solid fa-star fa-lg" style="color: #e9c43f;"></i> &nbsp;&nbsp;</span><br><br>
+                <h1 class="shadow-h1">Premium Foods</h1>
+                <h4>Premium Items With Premium Servie...</h4>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="row text-start mpading">
+              <div class="col-lg-5 marginpadding">
+                <h1 class="shadow-h1 mt-5 mb-5 text-center text-lg-start text-md-center text-sm-center offer-price"><del
+                    style="color: #dfc390; font-family: 'Roboto', sans-serif; letter-spacing: 3px; line-height: 60px; font-style: italic; font-size: 30px; font-weight: 900;">$120</del>
+                  &nbsp;&nbsp;$90</h1>
+                <h1 class="shadow-h1 mt-5 mb-5 text-center text-lg-start text-md-center text-sm-center food-title">
+                  Munchease</h1>
+                <span class="badge bg-warning text-dark">Food</span>
+                <span>Best Ratings</span>&nbsp;&nbsp;
+                <span><i class="fa-solid fa-star fa-lg" style="color: #e9c43f;"></i> &nbsp;&nbsp;<i
+                    class="fa-solid fa-star fa-lg" style="color: #e9c43f;"></i>&nbsp;&nbsp;<i
+                    class="fa-solid fa-star fa-lg" style="color: #e9c43f;"></i> &nbsp;&nbsp;<i
+                    class="fa-solid fa-star fa-lg" style="color: #e9c43f;"></i> &nbsp;&nbsp;<i
+                    class="fa-solid fa-star fa-lg" style="color: #e9c43f;"></i> &nbsp;&nbsp;</span><br><br>
+                <h1 class="shadow-h1">Quality In Food</h1>
+                <h4>We Believe In Quality...</h4>
+              </div>
+              <div class="col-lg-5"> <img src="images/foods2.png" class=" w-100" alt="..."></div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="row text-start mpading">
+              <div class="col-lg-5"> <img src="images/foods3.png" class=" w-100" alt="..."></div>
+              <div class="col-lg-5 marginpadding">
+                <h1 class="shadow-h1 mt-5 mb-5 text-center text-lg-start text-md-center text-sm-center offer-price">
+                  <del
+                    style="color: #dfc390; font-family: 'Roboto', sans-serif; letter-spacing: 3px; line-height: 60px; font-style: italic; font-size: 30px; font-weight: 900;">$100</del>&nbsp;&nbsp;$70
+                </h1>
+                <h1 class="shadow-h1 mt-5 mb-5 text-center text-lg-start text-md-center text-sm-center food-title">
+                  Steak & Kidney Pie</h1>
+                <span class="badge bg-warning text-dark">Food</span>
+                <span>Best Ratings</span>&nbsp;&nbsp;
+                <span><i class="fa-solid fa-star fa-lg" style="color: #e9c43f;"></i> &nbsp;&nbsp;
+                  <i class="fa-solid fa-star fa-lg" style="color: #e9c43f;"></i>&nbsp;&nbsp;
+                  <i class="fa-solid fa-star fa-lg" style="color: #e9c43f;"></i> &nbsp;&nbsp;
+                  <i class="fa-solid fa-star fa-lg" style="color: #e9c43f;"></i> &nbsp;&nbsp;
+                  <i class="fa-solid fa-star fa-lg" style="color: #e9c43f;"></i> &nbsp;&nbsp;</span><br><br>
+                <h1 class="shadow-h1" style="padding-bottom: 20px;">Surprising Offer</h1>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item ">
+            <div class="row text-start mpading">
+              <div class="col-lg-5 marginpadding">
+                <h1 class="shadow-h1 mt-5 mb-5 text-center text-lg-start text-md-center text-sm-center offer-price"><del
+                    style="color: #dfc390; font-family: 'Roboto', sans-serif; letter-spacing: 3px; line-height: 60px; font-style: italic; font-size: 30px; font-weight: 900;">$120</del>
+                  &nbsp;&nbsp;$90</h1>
+                <h1 class="shadow-h1 mt-5 mb-5 text-center text-lg-start text-md-center text-sm-center food-title">
+                  Cheesy Sandwich</h1>
+                <span class="badge bg-warning text-dark">Food</span>
+                <span>Best Ratings</span>&nbsp;&nbsp;
+                <span><i class="fa-solid fa-star fa-lg" style="color: #e9c43f;"></i> &nbsp;&nbsp;<i
+                    class="fa-solid fa-star fa-lg" style="color: #e9c43f;"></i>&nbsp;&nbsp;<i
+                    class="fa-solid fa-star fa-lg" style="color: #e9c43f;"></i> &nbsp;&nbsp;<i
+                    class="fa-solid fa-star fa-lg" style="color: #e9c43f;"></i> &nbsp;&nbsp;<i
+                    class="fa-solid fa-star fa-lg" style="color: #e9c43f;"></i> &nbsp;&nbsp;</span><br><br>
+                <h1 class="shadow-h1">Lot Of Items And Service</h1>
+                <h4>We Are Providing Lot Of Services...</h4>
+              </div>
+              <div class="col-lg-5"> <img src="images/foods4.png" class=" w-100" alt="..."></div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev">
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next">
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- ==================== Food Menu Cards ==================== -->
+    <div class="container mt-5 mb-5 pb-5 food-menu justify-content-center align-items-center">
+      <div class="container row text-center mt-5">
+        <div class="col-md-12">
+          <h1 class="text-center food-title shadow-h1 mt-5 ">Food Menu</h1>
+          <hr>
+        </div>
+        <div class="container col-md-12 pb-5">
+          <div class="row text-center">
+            <div class="col-md-4 d-flex justify-content-center  ">
+              <div class="card shadow food-card text-center" style="width: 20rem;">
+                <img src="images/foods1.png" class="card-img-top food-img w-100" alt="...">
+                <div class="card-body">
+                  <span class="badge bg-warning text-dark">Food</span>
+                  <h5 class="card-title">Cheesy Burger</h5>
+                  <p class="card-text text-muted" style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Eum facere ipsum rem enim maxime.</p>
+                  <button class="btn btn-warning w-50 food-button text-center align-items-center ">Add To Cart</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+              <div class="card shadow food-card text-center" style="width: 20rem;">
+                <img src="images/foods2.png" class="card-img-top food-img w-100" alt="...">
+                <div class="card-body">
+                  <span class="badge bg-warning text-dark">Food</span>
+                  <h5 class="card-title">Munchease</h5>
+                  <p class="card-text text-muted" style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Eum facere ipsum rem enim maxime.</p>
+                  <button class="btn btn-warning w-50 food-button text-center align-items-center ">Add To Cart</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex justify-content-center">
+              <div class="card shadow food-card text-center mb-5 pb-5" style="width: 20rem;">
+                <img src="images/foods3.png" class="card-img-top food-img w-100" alt="...">
+                <div class="card-body">
+                  <span class="badge bg-warning text-dark">Food</span>
+                  <h5 class="card-title">Steak & Kidney Pie</h5>
+                  <p class="card-text text-muted" style="font-size: 15px;">Lorem, ipsum dolor sit amet consectetur
+                    adipisicing elit. Eum facere ipsum rem enim maxime.</p>
+                  <button class="btn btn-warning w-50 food-button text-center align-items-center ">Add To Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </main>
+
+  <!-- ==========================Footer========================== -->
+  <footer class="bg-dark py-5 mt-0 pb-1">
+    <div class="container">
+      <div class="row">
+        <!-- Column 1 Start -->
+        <div class="col-md-3 text-center">
+          <h2 class="footer-about-h2">Sea Green Inn Limited</h2>
+          <p class="d-block footer-about-p"><img src="images/Logo.png" width="50%" height="70px" alt="Sea Green Inn">
+          </p>
+        </div>
+        <!-- Column 1 End -->
+        <!-- Column 2 Start -->
+        <div class="col-md-3">
+          <h2 class="footer-about-h2">About Us</h2>
+          <p class="d-block footer-about-p">Sea Green Inn Ltd is the First Five Star Eco-friendly Resort in Bangladesh,
+            Started its commercial operation from 05 May 2024.</p>
+
+          <!-- =====================Social Media Icon Start============= -->
+          <div class="container d-flex gap-3">
+            <a href="http://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook fa-2xl"></i></a>
+            <a href="http://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+            <a href="http://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+            <a href="http://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube fa-2xl"></i></i></a>
+          </div>
+
+        </div>
+
+        <!-- Collumn 3 Start -->
+        <div class="col-md-3 footer-col2">
+          <ul class="footer-list-col2">
+            <li class="h3">Catagories</li>
+            <li><a href="booking.html" class="footer-catagories-list">Book Now</a></li>
+            <li><a href="rooms.html" class="footer-catagories-list">Rooms</a></li>
+            <li><a href="menu.html" class="footer-catagories-list">Food Menu</a></li>
+            <li><a href="#" class="footer-catagories-list">Gallery</a></li>
+            <li><a href="about.html" class="footer-catagories-list">More Information</a></li>
+          </ul>
+        </div>
+
+        <!-- Collumn 4 Start -->
+        <div class="col-md-3">
+          <h2 class="footer-about-h2">Contact Info</h2>
+          <p style="color: #a1a1a1; font-family: robot;"><i class="fa-solid fa-location-dot"
+              style="color: #a1a1a1;"></i> &nbsp;&nbsp;&nbsp;&nbsp;Inani, Cox's Bazar, Chattagram,
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bangladesh.</p>
+          <p style="color: #a1a1a1; font-family: robot;"><i class="fa-solid fa-envelope" style="color: #a1a1a1;"></i>
+            &nbsp;&nbsp;&nbsp;&nbsp;info@seagreeninnltd.com</p>
+          <p style="color: #a1a1a1; font-family: robot;"> <i class="fa-solid fa-phone" style="color: #a1a1a1;"></i>
+            &nbsp;&nbsp;&nbsp;&nbsp;+88 0186421-8632<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +88
+            01568014812<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Fax- 5689653</p>
+        </div>
+      </div>
+
+      <div class="container pb-0 mb-0" style="color: rgb(185, 185, 185); text-align: center;">
+        <p>© 2024 Sea Green Inn Ltd. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

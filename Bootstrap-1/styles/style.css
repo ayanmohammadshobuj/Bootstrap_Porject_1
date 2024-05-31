@@ -1,0 +1,293 @@
+/* html {
+    scroll-behavior: smooth;
+} */
+
+body {
+    background-color: aliceblue;
+}
+
+/* .nav-item > .active > a {
+    color: aqua;
+} */
+
+* {
+    font-family: 'Inter';
+  }
+
+.booking-button {
+    text-decoration: none;
+    color: ghostwhite;
+    background-color: rgb(36, 161, 84);
+    padding: 8px 18px;
+    border-radius: 50px;
+    transition: 0.3s background-color;
+}
+
+.booking-button:hover {
+    background-color: rgb(23, 82, 40);
+}
+
+.navbar {
+    background-color: aliceblue;
+    height: 70px;
+    margin: 15px;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 25px;
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link {
+    color: rgb(43, 121, 43);
+    font-weight: 600;
+    position: relative;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: #0d2411;
+}
+
+@media (min-width: 900px) {
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 2px;
+        background-color: rgb(43, 121, 43);
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-link:hover::before,
+    .nav-link.active::before {
+        width: 100%;
+        visibility: visible;
+    }
+}
+
+.cover-img-home {
+    background: url(/images/home-cover.jpg);
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cover-img-rooms {
+    background: url(/images/room-cover.jpg);
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cover-img-about {
+    background: url(/images/about.jpg);
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cover-img-contact {
+    background: url(/images/contact.jpg);
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cover-img-home::before {
+    background-color: rgba(0, 0, 0, 0.6);
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.cover-img-home .container {
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+}
+
+.cover-img-home h1 {
+    font-size: 60px;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cover-img-home p {
+    font-size: 30px;
+    font-family: Times, 'Times New Roman', serif;
+}
+
+.footer-about-h2,
+.footer-about-p {
+    color: ghostwhite;
+}
+
+.footer-about-p {
+    color: rgb(185, 185, 185);
+}
+
+.footer-col2 {
+    color: ghostwhite;
+    text-decoration: none;
+
+}
+
+.footer-list-col2 {
+    list-style: none;
+}
+
+.footer-catagories-list {
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+}
+
+.footer-catagories-list:hover {
+    color: ghostwhite;
+}
+
+.home_content {
+    margin: auto;
+    height: auto;
+}
+
+.fa-youtube:hover {
+    color: rgb(214, 0, 0);
+}
+
+
+.room-offer1 {
+    background: url(/images/room1.jpg);
+    background-size: cover;
+    height: 250px;
+}
+
+.room-offer2 {
+    background: url(/images/food2.png);
+    background-size: cover;
+    height: 250px;
+}
+
+.room-offer3 {
+    background: url(/images/food3.png);
+    background-size: cover;
+    height: 250px;
+}
+
+/* Carousel Style Start */
+.carousel-item {
+    padding: 5% 5%;
+    text-align: center;
+    height: 600px;
+    width: 100%;
+}
+
+.carousel-item img {
+    text-align: center;
+    height: 600px;
+    width: 100%;
+}
+
+/* Carousel Style End */
+
+.shadow-h1 {
+    text-shadow: 2px 3px 4px #00000070;
+}
+
+.marginpadding {
+    margin: auto;
+    padding-top: 10%;
+}
+
+.bgfixed {
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.food-title {
+    color: #e9c43f;
+    font-size: 50px;
+    font-weight: 800;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+    line-height: 60px;
+    font-style: italic;
+}
+
+.offer-price {
+    color: #e9c43f;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 3px;
+    line-height: 60px;
+    font-style: italic;
+}
+
+.food-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    height: auto;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    margin: 10px;
+    padding: 10px;
+}
+
+.food-card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.food-img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 10px;
+
+}
