@@ -79,7 +79,7 @@ body {
 }
 
 .cover-img-home {
-    background: url(/images/home-cover.jpg);
+    background: url(../images/home-cover.jpg);
     background-size: cover;
     width: 100%;
     background-position: center;
@@ -89,7 +89,7 @@ body {
 }
 
 .cover-img-rooms {
-    background: url(/images/room-cover.jpg);
+    background: url(../images/room-cover.jpg);
     background-size: cover;
     width: 100%;
     background-position: center;
@@ -99,7 +99,7 @@ body {
 }
 
 .cover-img-about {
-    background: url(/images/about.jpg);
+    background: url(../images/about.jpg);
     background-size: cover;
     width: 100%;
     background-position: center;
@@ -109,7 +109,7 @@ body {
 }
 
 .cover-img-contact {
-    background: url(/images/contact.jpg);
+    background: url(../images/contact.jpg);
     background-size: cover;
     width: 100%;
     background-position: center;
@@ -184,19 +184,19 @@ body {
 
 
 .room-offer1 {
-    background: url(/images/room1.jpg);
+    background: url(../images/room1.jpg);
     background-size: cover;
     height: 250px;
 }
 
 .room-offer2 {
-    background: url(/images/food2.png);
+    background: url(../images/food2.png);
     background-size: cover;
     height: 250px;
 }
 
 .room-offer3 {
-    background: url(/images/food3.png);
+    background: url(../images/food3.png);
     background-size: cover;
     height: 250px;
 }
