@@ -69,53 +69,52 @@
 
     <!-- =======================Cover Photo Section================== -->
     <section class="cover-img-home">
-      <div class="container d-flex align-items-center justify-content-center fs-1 text-white flex-column" style=" padding-top: 300px;">
+      <div class="container d-flex align-items-center justify-content-center fs-1 text-white flex-column"
+        style="padding-top: 300px;">
         <h1>Sea Green Inn</h1>
-        <div class="datepickerDiv">
+        <div class="datepickerDiv justify-content-center align-items-center d-flex" style="margin: auto">
           <div class="container">
-              <input class="input1" id="input-id">
-              <label for="people">People:</label>
-              <select id="people" name="people" class="input1">
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-                  <option value="4">4</option>
-                  <option value="5">5</option>
-              </select>
-              <label for="child">Child:</label>
-              <select id="child" name="child" class="input1">
-                  <option value="0">0</option>
-                  <option value="1">1</option>
-                  <option value="2">2</option>
-                  <option value="3">3</option>
-              </select>
-              <!-- <h2>Basic</h2>
-          <p><input id="demo1" /></p> -->
+            <input class="input1" id="input-id">
+            <label class="label2" for="people">People:</label>
+            <select id="people" name="people" class="input1">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+            </select>
+            <label class="label2" for="child">Child:</label>
+            <select id="child" name="child" class="input1">
+              <option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+            </select>
           </div>
           <script src="hotel-datepicker2.umd.js"></script>
           <script src="hotel-datepicker.js"></script>
           <script>
-              var today = new Date();
-              var tomorrow = new Date();
-              tomorrow.setDate(tomorrow.getDate() + 1);
-              var input1 = document.querySelector(
-                  "#input-id"
-              );
-              input1.value =
-                  fecha.format(today, "YYYY-MM-DD") +
-                  " - " +
-                  fecha.format(tomorrow, "YYYY-MM-DD");
-  
-              // var demo1 = new HotelDatepicker(input1);
-              var input = document.getElementById('input-id');
-              var datepicker = new HotelDatepicker(input, {
-                  inline: true,
-                  clearButton: true,
-                  submitButton: true,
-                  topbarPosition: 'bottom',
-                  submitButtonName: 'name_of_submit_button'
-              });
+            var today = new Date();
+            var tomorrow = new Date();
+            tomorrow.setDate(tomorrow.getDate() + 1);
+            var input1 = document.querySelector(
+              "#input-id"
+            );
+            input1.value =
+              fecha.format(today, "YYYY-MM-DD") +
+              " - " +
+              fecha.format(tomorrow, "YYYY-MM-DD");
+
+            var input = document.getElementById('input-id');
+            var datepicker = new HotelDatepicker(input, {
+              inline: true,
+              clearButton: true,
+              submitButton: true,
+              topbarPosition: 'bottom',
+              submitButtonName: 'name_of_submit_button'
+            });
           </script>
+        </div>
       </div>
     </section>
     <!-- =======================Cover Photo Section End=================== -->
